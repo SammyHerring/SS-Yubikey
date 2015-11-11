@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Yubikey-Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-10 11:04+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+
+#: yubikey-plugin/trunk/yubikey.php:47
+msgid "If You don't have a Yubikey enabled for Your Wordpress account, leave this field empty."
+msgstr "Wenn Du die Nutzung eines Yubikeys nicht eingeschaltet hast, lass dieses Feld leer."
+
+#: yubikey-plugin/trunk/yubikey.php:47
+msgid "Yubikey OTP"
+msgstr "Yubikey OTP"
+
+#: yubikey-plugin/trunk/yubikey.php:57
+msgid "Yubikey OTP (Optional)"
+msgstr "Yubikey OTP (optional)"
+
+#: yubikey-plugin/trunk/yubikey.php:68
+msgid "Yubikey authentication has been disabled, Your PHP installation is missing one or more vital functions. Both the Curl & Hash functions must be present for this plugin to work."
+msgstr "Yibikey Authentifizierung ist ausgeschaltet. Deiner PHP-Installation fehlen eine oder mehrere grundlegende Funktionen. Die beiden Curls & Hash Funktionen müssen vorhanden sein, damit dieses PlugIn arbeitet.  "
+
+#: yubikey-plugin/trunk/yubikey.php:77
+msgid "Yubikey authentication has been disabled, Yubico API ID or key hasn't been setup."
+msgstr "Yubikey Authentifizierung wurde ausgeschaltet, Yubico API ID oder Schlüssel wurden nicht eingetragen."
+
+#: yubikey-plugin/trunk/yubikey.php:88
+msgid "Yubikey Plugin Options"
+msgstr "Yubikey Plugin Optionen"
+
+#: yubikey-plugin/trunk/yubikey.php:96
+msgid "Yubico API ID"
+msgstr "Yubico API ID"
+
+#: yubikey-plugin/trunk/yubikey.php:100
+msgid "Yubico API key"
+msgstr "Yubico API Schlüssel"
+
+#: yubikey-plugin/trunk/yubikey.php:105
+msgid "Get Yubico ID &amp; API key at the <a href=\"https://api.yubico.com/get-api-key/\">Yubico.com website</a>"
+msgstr "Holde Dir die Yubico ID &amp; API key auf <a href=\"https://api.yubico.com/get-api-key/\">Yubico.com Webseite</a>"
+
+#: yubikey-plugin/trunk/yubikey.php:109
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: yubikey-plugin/trunk/yubikey.php:122
+msgid "WARNING: You appear to be using PHP4, PHP5 or newer is required for the Yubikey plugin to work."
+msgstr "WARNUNG: Es scheint als ob Du PHP4 nutzt. PHP5 oder neuer wird für das Yubikey Plugin benötigt."
+
+#: yubikey-plugin/trunk/yubikey.php:163
+msgid "<strong>ERROR</strong>: The Yubikey OTP field is empty."
+msgstr "<strong>ERROR</strong>: Das Yubikey OTP Feld ist leer."
+
+#: yubikey-plugin/trunk/yubikey.php:219
+#: yubikey-plugin/trunk/yubikey.php:275
+msgid "Yubikey settings"
+msgstr "Yubikey Einstellungen"
+
+#: yubikey-plugin/trunk/yubikey.php:225
+#: yubikey-plugin/trunk/yubikey.php:281
+msgid "Yubikey authentication"
+msgstr "Yubikey Authentifizierung"
+
+#: yubikey-plugin/trunk/yubikey.php:233
+#: yubikey-plugin/trunk/yubikey.php:289
+msgid "Disabled"
+msgstr "Ausgeschaltet"
+
+#: yubikey-plugin/trunk/yubikey.php:241
+#: yubikey-plugin/trunk/yubikey.php:297
+msgid "Use Yubico server"
+msgstr "Verwende den Yubico Server"
+
+#: yubikey-plugin/trunk/yubikey.php:249
+msgid "Key ID 1"
+msgstr "Schlüssel ID 1"
+
+#: yubikey-plugin/trunk/yubikey.php:250
+msgid " First 12 chars from your key output, just press the Yubikey button in this field"
+msgstr "Die ersten 12 Zeichen von deinem Key. Einfach den Yubikey Button drücken."
+
+#: yubikey-plugin/trunk/yubikey.php:253
+msgid "Key ID 2"
+msgstr "Schlüssel ID 2"
+
+#: yubikey-plugin/trunk/yubikey.php:254
+#: yubikey-plugin/trunk/yubikey.php:258
+msgid " Optional"
+msgstr " optional"
+
+#: yubikey-plugin/trunk/yubikey.php:257
+msgid "Key ID 3"
+msgstr "Schlüssel ID 3"
+
+#: yubikey-plugin/trunk/yubikey.php:408
+msgid "Yubikey Multi-Factor Authentication with One-time Passwords for Wordpress. "
+msgstr "Yubikey Multi-Factor Authentifizierung mit One-time Passwort für Wordpress. "
+
+#: yubikey-plugin/trunk/yubikey.php:409
+msgid "Get Your own Yubikey at <a href=\"http://yubico.com/products/order/\">Yubico.com</a>"
+msgstr "Hole deinen eigenen Yubikey auf <a href=\"http://yubico.com/products/order/\">Yubico.com</a>"
+

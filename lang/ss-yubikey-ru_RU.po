@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Clean Options\n"
+"Report-Msgid-Bugs-To: <http://www.mittineague.com/blog/2009/06/clean-options-translations/>\n"
+"POT-Creation-Date: 2009-08-07 00:00+0000\n"
+"PO-Revision-Date: 2009-08-17 01:09+0300\n"
+"Last-Translator: Fat Cow <zhr@tut.by>\n"
+"Language-Team: Fat Cow <zhr@tut.by>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Belarusian\n"
+"X-Poedit-Country: BELARUS\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: yubikey.php:44
+msgid "If You don't have a Yubikey enabled for Your Wordpress account, leave this field empty."
+msgstr "Если у вас не включен Yubikey, оставьте это поле пустым."
+
+#: yubikey.php:44
+msgid "Yubikey OTP"
+msgstr "Yubikey OTP"
+
+#: yubikey.php:54
+msgid "Yubikey OTP (Optional)"
+msgstr "Yubikey OTP (опционально)"
+
+#: yubikey.php:65
+msgid "Yubikey authentication has been disabled, Your PHP installation is missing one or more vital functions. Both the Curl & Hash functions must be present for this plugin to work."
+msgstr "Аутентификация Yubikey отключена, ваша PHP установка некорректна. Curl и Hash функции должны быть представлены для работы этого плагина."
+
+#: yubikey.php:74
+msgid "Yubikey authentication has been disabled, Yubico API ID or key hasn't been setup."
+msgstr "Аутентификация Yubikey отключена, Yubico API ID или ключ не установлены."
+
+#: yubikey.php:85
+msgid "Yubikey Plugin Options"
+msgstr "Настройки плагина Yubikey "
+
+#: yubikey.php:93
+msgid "Yubico API ID"
+msgstr "Yubico API ID"
+
+#: yubikey.php:97
+msgid "Yubico API key"
+msgstr "Yubico API ключ"
+
+#: yubikey.php:102
+msgid "Get Yubico ID &amp; API key at the <a href=\"https://api.yubico.com/get-api-key/\">Yubico.com website</a>"
+msgstr "Получить Yubico ID &amp; API ключ на <a href=\"https://api.yubico.com/get-api-key/\">Yubico.com сайте</a>"
+
+#: yubikey.php:106
+msgid "Save Changes"
+msgstr "Сохранить настройки"
+
+#: yubikey.php:119
+msgid "WARNING: You appear to be using PHP4, PHP5 or newer is required for the Yubikey plugin to work."
+msgstr "ПРЕДУПРЕЖДЕНИЕ: вы должны использовать  PHP4, PHP5 или более поздние версии для работы Yubikey."
+
+#: yubikey.php:157
+msgid "<strong>ERROR</strong>: The Yubikey OTP field is empty."
+msgstr "<strong>ОШИБКА</strong>: поле Yubikey OTP пустое."
+
+#: yubikey.php:206
+#: yubikey.php:254
+msgid "Yubikey settings"
+msgstr "Настройки Yubikey "
+
+#: yubikey.php:212
+#: yubikey.php:260
+msgid "Yubikey authentication"
+msgstr "Аутентификация Yubikey "
+
+#: yubikey.php:220
+#: yubikey.php:268
+msgid "Disabled"
+msgstr "Отключена"
+
+#: yubikey.php:228
+#: yubikey.php:276
+msgid "Use Yubico server"
+msgstr "Сервер Yubico "
+
+#: yubikey.php:236
+msgid "Key ID"
+msgstr "ID ключа"
+
+#: yubikey.php:237
+msgid "First 12 chars from your key output, just press the Yubikey button in this field"
+msgstr "Первые 12 символов вашего ключа, прост нажмите кнопку Yubikey в этом поле"
+
+#: yubikey.php:375
+msgid "Yubikey Multi-Factor Authentication with One-time Passwords for Wordpress. "
+msgstr "Мульти-факторная аутентификация Yubikey с одноразовым паролем для Wordpress. "
+
+#: yubikey.php:376
+msgid "Get Your own Yubikey at <a href=\"http://yubico.com/products/order/\">Yubico.com</a>"
+msgstr "Получите ваш Yubikey на <a href=\"http://yubico.com/products/order/\">Yubico.com</a>"
+
