@@ -23,7 +23,7 @@ function yubikey_loginform() {
  */
 function yubikey_registerform() {
   echo "<p>";
-  echo "<label>".__('Yubikey OTP (Optional)','yubikey')."<br />";
+  echo "<label>".__('SS Yubikey OTP (Optional)','yubikey')."<br />";
   echo "<input type=\"password\" name=\"otp\" id=\"user_pass\" class=\"input\" value=\"\" size=\"20\" tabindex=\"99\"/></label>";
   echo "</p>";
 }
@@ -34,7 +34,7 @@ function yubikey_registerform() {
  */
 function yubikey_loginform_functionsmissing() {
   echo "<p style=\"font-size: 12px;width: 97%;padding: 3px;\">";
-  echo __('Yubikey authentication has been disabled, Your PHP installation is missing one or more vital functions. Both the Curl & Hash functions must be present for this plugin to work.','yubikey');
+  echo __('Social Servers Yubikey authentication has been disabled, Your PHP installation is missing one or more vital functions. Both the Curl & Hash functions must be present for this plugin to work.','yubikey');
   echo "</p>";
 }
 
@@ -43,7 +43,7 @@ function yubikey_loginform_functionsmissing() {
  */
 function yubikey_loginform_apiinfomissing() {
   echo "<p style=\"font-size: 12px;width: 97%;padding: 3px;\">";
-  echo __('Yubikey authentication has been disabled, Yubico API ID or key hasn\'t been setup.','yubikey');
+  echo __('Social Servers Yubikey authentication has been disabled, Yubico API ID or key hasn\'t been setup.','yubikey');
   echo "</p>";
 }
 
@@ -54,7 +54,7 @@ function yubikey_loginform_apiinfomissing() {
 function yubikey_options_page() {	
 ?>    
 <div class="wrap">
-	<h2><?php _e('Yubikey Plugin Options','yubikey');?></h2>
+	<h2><?php _e('Social Servers Yubikey Plugin Options','yubikey');?></h2>
 	<form name="yubikey" method="post" action="options.php">
 		<?php wp_nonce_field('update-options'); ?>
 		<input type="hidden" name="action" value="update" />
@@ -191,7 +191,7 @@ function yubikey_profile_personal_options() {
 	echo '<tbody>';
 	PHP4_Check(false);
 	echo '<tr>';
-	echo '<th scope="row">'.__('Yubikey authentication','yubikey').'</th>';
+	echo '<th scope="row">'.__('Social Servers Yubikey authentication','yubikey').'</th>';
 	echo '<td>';
 
 	echo '<div><input name="yubikey_server" id="yubikeyserver_disabled" value="disabled" class="tog" type="radio"';
@@ -247,7 +247,7 @@ function yubikey_edit_user_profile() {
 		echo '<tbody>';
 		PHP4_Check(false);
 		echo '<tr>';
-		echo '<th scope="row">'.__('Yubikey authentication','yubikey').'</th>';
+		echo '<th scope="row">'.__('Social Servers Yubikey authentication','yubikey').'</th>';
 		echo '<td>';
 
 		echo '<div><input name="yubikey_server" id="yubikeyserver_disabled" value="disabled" class="tog" type="radio"';
